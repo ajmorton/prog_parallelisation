@@ -1,0 +1,20 @@
+dijk 0260
+dijk 7dijk 1dijk 3dijk 5dijk 2dijk 4dijk 6
+real	0m3.233s
+user	0m2.373s
+sys	0m0.385s
+dijk 0260
+dijk 7dijk 1dijk 5dijk 3dijk 2dijk 4dijk 6
+real	0m3.190s
+user	0m2.388s
+sys	0m0.384s
+dijk 0260
+dijk 7dijk 1dijk 5dijk 3dijk 2dijk 4dijk 6
+real	0m3.187s
+user	0m2.356s
+sys	0m0.403s
+dijk 0260
+dijk 7dijk 1dijk 5dijk 3dijk 2dijk 4dijk 6
+real	0m3.191s
+user	0m2.369s
+sys	0m0.391s

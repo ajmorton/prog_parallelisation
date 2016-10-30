@@ -1,0 +1,60 @@
+
+========================================
+whole_set,
+========================================
+/var/spool/slurm/job790210/slurm_script: line 18: ./execs/prev: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+
+
+========================================
+empty_set,
+========================================
+/var/spool/slurm/job790210/slurm_script: line 18: ./execs/prev: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+
+
+========================================
+all_in_set,
+========================================
+/var/spool/slurm/job790210/slurm_script: line 18: ./execs/prev: No such file or directory
+
+real	0m0.000s
+user	0m0.001s
+sys	0m0.000s
+
+
+========================================
+seahorse,
+========================================
+/var/spool/slurm/job790210/slurm_script: line 18: ./execs/prev: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+
+
+========================================
+many_num,
+========================================
+/var/spool/slurm/job790210/slurm_script: line 18: ./execs/prev: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+
+
+========================================
+many_iter}
+========================================
+/var/spool/slurm/job790210/slurm_script: line 18: ./execs/prev: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+

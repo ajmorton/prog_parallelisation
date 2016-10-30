@@ -1,0 +1,14 @@
+
+
+array predefinition, slower for large n but this will balance out with OMP
+
+can't parallelise reading in edges ==> false sharing. may be doable if we can confirm that edges are read in increasing order
+
+	i.e. 
+	1-4-5
+	1-2-4
+	...
+	2-2-3
+	...
+	3-5-5
+

@@ -1,0 +1,15 @@
+#!/bin/sh
+
+#SBATCH --time=00:30:00 # 30 mins
+#SBATCH --nodes=8
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=4
+
+#SBATCH --output=./no_redir.out
+
+test="tests/mid"
+
+time mpirun -np 1  ./mpi < $test
+time mpirun -np 2  ./mpi < $test
+time mpirun -np 4  ./mpi < $test
+time mpirun -np 8  ./mpi < $test

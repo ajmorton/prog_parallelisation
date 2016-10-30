@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#SBATCH --time=01:00:00 # 1 hour
+
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+
+#SBATCH --output=./output/combo.out
+
+CODE=combo
+
+for FILE in ./tests/*; do
+    echo ${FILE##*/}
+    time ./$CODE < $FILE
+    echo
+done

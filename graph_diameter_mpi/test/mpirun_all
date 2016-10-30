@@ -1,0 +1,12 @@
+#!/bin/sh
+
+#SBATCH --time=2:0:0 #2 hours
+#SBATCH --nodes=8
+#SBATCH --mem-per-cpu=1024
+
+#SBATCH --output=./splits.out
+
+time mpirun -stdin all ./parr -np 8 < tests/e_sparse
+time mpirun -stdin all ./parr -np 4 < tests/e_sparse
+time mpirun -stdin all ./parr -np 2 < tests/e_sparse
+time mpirun -stdin all ./parr -np 1 < tests/e_sparse

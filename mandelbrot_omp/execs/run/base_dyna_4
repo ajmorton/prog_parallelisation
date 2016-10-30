@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#SBATCH --time=02:00:00 # 10 min
+
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+
+#SBATCH --output=./output/base_dyna_4.out
+
+bash ../test.sh ../final_w_symm ../dyna ../input

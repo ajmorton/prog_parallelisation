@@ -1,0 +1,10 @@
+#!/bin/sh
+
+#SBATCH --time=00:15:00 # 15 mins
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --output=final_f_symm.out
+
+export OMP_NUM_THREADS=$SLURM_CPUS_ON_NODE
+
+bash ../test.sh ../final ../final_w_symm ../input

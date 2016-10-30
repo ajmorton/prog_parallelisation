@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH --time=2:0:0 #2 hours
+#SBATCH --nodes=8
+#SBTACH --ntasks=8
+#SBATCH --mem-per-cpu=1024
+#SBATCH --output=./o_parr.out
+
+for test in $(ls tests)
+do
+	for n in 1 2 4 8
+	do
+		echo
+		echo "================================="
+		echo "${test##*/}: $n nodes"
+        	echo "================================="
+		time srun --nodes=$n ./parr < ./tests/$test
+		echo
+	done
+done

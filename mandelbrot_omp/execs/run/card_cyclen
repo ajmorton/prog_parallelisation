@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#SBATCH --time=03:00:00 # 3 hours
+
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+
+#SBATCH --output=./output/card_cyclen.out
+
+bash ../test.sh ../card ../cyclen ../input

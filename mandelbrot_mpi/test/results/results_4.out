@@ -1,0 +1,558 @@
+
+========================================
+whole_set,: {
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  {
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.016s
+user	0m0.004s
+sys	0m0.007s
+
+
+========================================
+whole_set,: 2,
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  2,
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.011s
+user	0m0.004s
+sys	0m0.005s
+
+
+========================================
+whole_set,: 4,
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  4,
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.011s
+user	0m0.004s
+sys	0m0.006s
+
+
+========================================
+whole_set,: 16
+========================================
+--------------------------------------------------------------------------
+There are not enough slots available in the system to satisfy the 16 slots 
+that were requested by the application:
+  ./execs/mpi
+
+Either request fewer slots for your application, or make more slots available
+for use.
+--------------------------------------------------------------------------
+
+real	0m0.370s
+user	0m0.022s
+sys	0m0.059s
+
+
+========================================
+whole_set,: }
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  }
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.011s
+user	0m0.003s
+sys	0m0.007s
+
+
+========================================
+empty_set,: {
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  {
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.011s
+user	0m0.004s
+sys	0m0.005s
+
+
+========================================
+empty_set,: 2,
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  2,
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.012s
+user	0m0.003s
+sys	0m0.007s
+
+
+========================================
+empty_set,: 4,
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  4,
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.011s
+user	0m0.003s
+sys	0m0.006s
+
+
+========================================
+empty_set,: 16
+========================================
+--------------------------------------------------------------------------
+There are not enough slots available in the system to satisfy the 16 slots 
+that were requested by the application:
+  ./execs/mpi
+
+Either request fewer slots for your application, or make more slots available
+for use.
+--------------------------------------------------------------------------
+
+real	0m0.344s
+user	0m0.024s
+sys	0m0.056s
+
+
+========================================
+empty_set,: }
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  }
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.011s
+user	0m0.006s
+sys	0m0.004s
+
+
+========================================
+all_in_set,: {
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  {
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.011s
+user	0m0.005s
+sys	0m0.004s
+
+
+========================================
+all_in_set,: 2,
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  2,
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.012s
+user	0m0.004s
+sys	0m0.006s
+
+
+========================================
+all_in_set,: 4,
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  4,
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.011s
+user	0m0.003s
+sys	0m0.006s
+
+
+========================================
+all_in_set,: 16
+========================================
+--------------------------------------------------------------------------
+There are not enough slots available in the system to satisfy the 16 slots 
+that were requested by the application:
+  ./execs/mpi
+
+Either request fewer slots for your application, or make more slots available
+for use.
+--------------------------------------------------------------------------
+
+real	0m0.340s
+user	0m0.021s
+sys	0m0.059s
+
+
+========================================
+all_in_set,: }
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  }
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.011s
+user	0m0.003s
+sys	0m0.006s
+
+
+========================================
+seahorse,: {
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  {
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.011s
+user	0m0.003s
+sys	0m0.007s
+
+
+========================================
+seahorse,: 2,
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  2,
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.012s
+user	0m0.004s
+sys	0m0.005s
+
+
+========================================
+seahorse,: 4,
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  4,
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.011s
+user	0m0.004s
+sys	0m0.006s
+
+
+========================================
+seahorse,: 16
+========================================
+--------------------------------------------------------------------------
+There are not enough slots available in the system to satisfy the 16 slots 
+that were requested by the application:
+  ./execs/mpi
+
+Either request fewer slots for your application, or make more slots available
+for use.
+--------------------------------------------------------------------------
+
+real	0m0.343s
+user	0m0.025s
+sys	0m0.054s
+
+
+========================================
+seahorse,: }
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  }
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.011s
+user	0m0.004s
+sys	0m0.005s
+
+
+========================================
+many_num,: {
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  {
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.011s
+user	0m0.003s
+sys	0m0.006s
+
+
+========================================
+many_num,: 2,
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  2,
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.012s
+user	0m0.003s
+sys	0m0.006s
+
+
+========================================
+many_num,: 4,
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  4,
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.011s
+user	0m0.003s
+sys	0m0.007s
+
+
+========================================
+many_num,: 16
+========================================
+--------------------------------------------------------------------------
+There are not enough slots available in the system to satisfy the 16 slots 
+that were requested by the application:
+  ./execs/mpi
+
+Either request fewer slots for your application, or make more slots available
+for use.
+--------------------------------------------------------------------------
+
+real	0m0.341s
+user	0m0.020s
+sys	0m0.059s
+
+
+========================================
+many_num,: }
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  }
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.011s
+user	0m0.004s
+sys	0m0.006s
+
+
+========================================
+many_iter}: {
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  {
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.011s
+user	0m0.003s
+sys	0m0.006s
+
+
+========================================
+many_iter}: 2,
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  2,
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.012s
+user	0m0.004s
+sys	0m0.006s
+
+
+========================================
+many_iter}: 4,
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  4,
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.011s
+user	0m0.000s
+sys	0m0.009s
+
+
+========================================
+many_iter}: 16
+========================================
+--------------------------------------------------------------------------
+There are not enough slots available in the system to satisfy the 16 slots 
+that were requested by the application:
+  ./execs/mpi
+
+Either request fewer slots for your application, or make more slots available
+for use.
+--------------------------------------------------------------------------
+
+real	0m0.348s
+user	0m0.024s
+sys	0m0.057s
+
+
+========================================
+many_iter}: }
+========================================
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  }
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+real	0m0.011s
+user	0m0.005s
+sys	0m0.004s
+

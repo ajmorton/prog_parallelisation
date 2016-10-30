@@ -1,0 +1,15 @@
+#!/bin/sh
+
+#SBATCH --time=00:30:00 # 30 mins
+#SBATCH --nodes=8
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=4
+
+#SBATCH --output=./redir3.out
+
+test="tests/big"
+
+time mpirun -np 1 -stdin all ./mpi < $test
+time mpirun -np 2 -stdin all ./mpi < $test
+time mpirun -np 4 -stdin all ./mpi < $test
+time mpirun -np 8 -stdin all ./mpi < $test

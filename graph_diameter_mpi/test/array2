@@ -1,0 +1,17 @@
+#!/bin/sh
+
+#SBATCH --time=01:00:00 # 1 hour
+
+#SBATCH --output=./single.out
+
+test="c_sparse"
+
+    echo "===================="
+    echo "${test##*/}"    
+    echo "===================="
+    echo "oned"
+    time ./base < tests/$test
+    echo
+    echo "twod"
+    time ./oned < tests/$test
+    echo

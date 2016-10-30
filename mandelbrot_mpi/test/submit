@@ -1,0 +1,22 @@
+#!/bin/sh
+
+#SBATCH --time=00:30:00 # 30 mins
+#SBATCH --nodes=8
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=4
+
+#SBATCH --output=./final/final.out
+
+for arg in {"-2 1 -1 1 1000 10000 whole_set", "0.5 1.0 -1.0 1.0 1000 10000 empty_set", "-0.2 0.2 -0.2 0.2 1000 10000 all_in_set", "-0.8 -0.7 0 0.2 1000 10000 seahorse", "-2.0 1 -1 1 2500 10000 many_num", "-2 1 -1 1 1000 100000 many_iter"}
+do 
+    for nodes in 1 2 4 8
+    do
+        echo
+        echo "========================================"
+        echo "${arg##*\ }: $nodes     $arg"
+        echo "========================================"
+        time mpirun -np $nodes ./execs/final $arg
+        echo
+    done
+
+done

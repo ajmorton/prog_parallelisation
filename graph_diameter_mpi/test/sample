@@ -1,0 +1,11 @@
+#!/bin/sh
+
+#SBATCH --time=2:0:0 #2 hours
+#SBATCH --nodes=8
+#SBTACH --ntasks=8
+#SBATCH --mem-per-cpu=1024
+
+#SBATCH --output=./d_f.out
+
+time  mpirun ./only_dijk -np 4 < tests/c_sparse
+time  mpirun ./only_dijk -np 8 < tests/c_sparse
